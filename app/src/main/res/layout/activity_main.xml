@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:onClick="onTimeChangeEvent"
+        android:id="@+id/morning_time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/text_morning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/morning" />
+
+    <ImageView
+        android:onClick="onTimeChangeEvent"
+        android:id="@+id/noon_time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/text_noon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/noon" />
+
+    <ImageView
+        android:onClick="onTimeChangeEvent"
+        android:id="@+id/evening_time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/text_evening"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morning_time"
+        app:srcCompat="@drawable/evening" />
+
+    <ImageView
+        android:onClick="onTimeChangeEvent"
+        android:id="@+id/midnight_time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="56dp"
+        android:contentDescription="@string/text_midnight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noon_time"
+        app:srcCompat="@drawable/night" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ModelButtonOff"
+        android:onClick="onToggleButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/text_turn_on"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/noon_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

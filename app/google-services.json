@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "321257971327",
+    "firebase_url": "https://word-notification-001.firebaseio.com",
+    "project_id": "word-notification-001",
+    "storage_bucket": "word-notification-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321257971327:android:0dd123d970dca7f9",
+        "android_client_info": {
+          "package_name": "com.github.chaitanyabhardwaj.lexi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321257971327-k6qvsh2ak1cpc8ongpk87sstk96aue4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.chaitanyabhardwaj.lexi",
+            "certificate_hash": "44171056dc3e9650f1a26fb887172ece82419261"
+          }
+        },
+        {
+          "client_id": "321257971327-bjtc0e4bd1an69v5bckibu9qbb29uvqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSGPyVWwQRsjFor0bto96i6ig9INdBjH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321257971327-bjtc0e4bd1an69v5bckibu9qbb29uvqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

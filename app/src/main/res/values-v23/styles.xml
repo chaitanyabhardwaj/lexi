@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ModelButtonOn" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:shadowColor">#55000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="ModelButtonOff" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorBackgroundAccent</item>
+        <item name="android:shadowColor">#55000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/colorWhiteAccent</item>
+    </style>
+
+</resources>

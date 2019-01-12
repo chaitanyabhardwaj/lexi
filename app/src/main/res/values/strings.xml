@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Lexi</string>
+
+    <string name="channel_01_name">Main Channel</string>
+    <string name="channel_01_description">This is the main channel of the app, used mainly to transmit the word of the day</string>
+
+    <string name="text_morning">Morning</string>
+    <string name="text_noon">Noon</string>
+    <string name="text_evening">Evening</string>
+    <string name="text_midnight">Midnight</string>
+
+    <string name="text_turn_on">Turn On</string>
+
+</resources>
