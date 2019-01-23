@@ -1,5 +1,6 @@
 package com.github.chaitanyabhardwaj.lexi;
 
+import android.support.design.widget.Snackbar;
 import android.app.ActionBar;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -12,7 +13,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import java.util.Calendar;
 
@@ -112,8 +112,7 @@ public class MainActivity extends AppCompatActivity {
         setRepeatingNotifications(true);
         //display changed time to user
         String msg = "We'll ship a new word every " + view.getContentDescription();
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
+        Snackbar.make(view, msg, Snackbar.LENGTH_LONG).setAction("Action", null).show();
         //change img opacity and change others back to default
         initTimeImage();
         ImageView v = (ImageView) view;
